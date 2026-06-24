@@ -1,0 +1,17 @@
+{
+  "users": [
+    {
+      "id": "fuhyNitR4IM",
+      "name": "ubaydulloh",
+      "password": "pono0908",
+      "email": "man@gmail.comm"
+    },
+    {
+      "id": "OiBSMNkAfrE",
+      "name": "ubaydulloh",
+      "password": "pono0908",
+      "email": "manzura.sharipova.ru@gmail.com"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
