@@ -14,6 +14,7 @@ import Login from "./pages/login/Login/Login";
 import Luciy from "./pages/luc/Luciy";
 import Me from "./pages/Me/Me";
 import Top from "./pages/top/Top";
+import Search from "./pages/Search/Search";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: "me",
         element: <Me />,
+      },
+      {
+        path: "search",
+        element: <Search />,
       },
     ],
   },

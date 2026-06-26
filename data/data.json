@@ -13,6 +13,107 @@
       "email": "laziz@gmail.com"
     }
   ],
-  "animes": [],
+  "animes": [
+    {
+      "id": 1,
+      "title": "Solo Leveling",
+      "caption": "The weakest hunter begins an incredible journey to become the strongest.Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium atque, nostrum consectetur asperiores minima illo maiores, rem culpa dolor dicta corporis ipsa cum quam, illum delectus dolore? Dignissimos suscipit laboriosam placeat ullam alias dolor optio totam at repudiandae fugit nam nemo, fugiat voluptatum sit rerum, asperiores provident obcaecati velit deleniti necessitatibus nisi tempore quasi excepturi?",
+      "image": "https://media.themoviedb.org/t/p/w440_and_h660_face/geCRueV3ElhRTr0xtJuEWJt6dJ1.jpg",
+      "genre": ["Action", "Fantasy"],
+      "rating": 9.5,
+      "episodes": 25,
+      "year": 2024
+    },
+    {
+      "id": 2,
+      "title": "Black Clover",
+      "caption": "Asta dreams of becoming the Wizard King despite having no magic.Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium atque, nostrum consectetur asperiores minima illo maiores, rem culpa dolor dicta corporis ipsa cum quam, illum delectus dolore? Dignissimos suscipit laboriosam placeat ullam alias dolor optio totam at repudiandae fugit nam nemo, fugiat voluptatum sit rerum, asperiores provident obcaecati velit deleniti necessitatibus nisi tempore quasi excepturi?",
+      "image": "https://m.media-amazon.com/images/I/81QcCmi+u6L.jpg",
+      "genre": ["Action", "Adventure"],
+      "rating": 8.8,
+      "episodes": 170,
+      "year": 2017
+    },
+    {
+      "id": 3,
+      "title": "One Piece",
+      "caption": "Monkey D. Luffy sails the seas in search of the legendary treasure. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium atque, nostrum consectetur asperiores minima illo maiores, rem culpa dolor dicta corporis ipsa cum quam, illum delectus dolore? Dignissimos suscipit laboriosam placeat ullam alias dolor optio totam at repudiandae fugit nam nemo, fugiat voluptatum sit rerum, asperiores provident obcaecati velit deleniti necessitatibus nisi tempore quasi excepturi?",
+      "image": "../src/pages/login/img/one.jpg",
+      "genre": ["Adventure", "Comedy"],
+      "rating": 9.7,
+      "episodes": 1100,
+      "year": 1999
+    },
+    {
+      "id": 4,
+      "title": "Overlord",
+      "caption": "A powerful guild master finds himself trapped inside a virtual world. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium atque, nostrum consectetur asperiores minima illo maiores, rem culpa dolor dicta corporis ipsa cum quam, illum delectus dolore? Dignissimos suscipit laboriosam placeat ullam alias dolor optio totam at repudiandae fugit nam nemo, fugiat voluptatum sit rerum, asperiores provident obcaecati velit deleniti necessitatibus nisi tempore quasi excepturi?",
+      "image": "https://image.tmdb.org/t/p/original/o6DS1lQASZsi5tmrWFrkvmTn8pG.jpg",
+      "genre": ["Fantasy", "Isekai"],
+      "rating": 8.9,
+      "episodes": 52,
+      "year": 2015
+    },
+    {
+      "id": 5,
+      "title": "Naruto Shippuden",
+      "caption": "Naruto continues his journey to protect his friends and village.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium atque, nostrum consectetur asperiores minima illo maiores, rem culpa dolor dicta corporis ipsa cum quam, illum delectus dolore? Dignissimos suscipit laboriosam placeat ullam alias dolor optio totam at repudiandae fugit nam nemo, fugiat voluptatum sit rerum, asperiores provident obcaecati velit deleniti necessitatibus nisi tempore quasi excepturi?",
+      "image": "https://onthewall.co.uk/cdn/shop/files/ABYDCO272.jpg?v=1740170961",
+      "genre": ["Action", "Adventure"],
+      "rating": 9.3,
+      "episodes": 500,
+      "year": 2007
+    },
+    {
+      "id": 6,
+      "title": "Attack on Titan",
+      "caption": "Humanity fights for survival against giant man-eating titans.         Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium atque, nostrum consectetur asperiores minima illo maiores, rem culpa dolor dicta corporis ipsa cum quam, illum delectus dolore? Dignissimos suscipit laboriosam placeat ullam alias dolor optio totam at repudiandae fugit nam nemo, fugiat voluptatum sit rerum, asperiores provident obcaecati velit deleniti necessitatibus nisi tempore quasi excepturi?",
+      "image": "https://i.redd.it/made-my-canal-colouring-look-like-a-poster-for-the-rumbling-v0-vmfcbbt80ty51.jpg?width=2033&format=pjpg&auto=webp&s=991af0b4607fbb7c0dd52e8f78f6c8a64f1620f7",
+      "genre": ["Action", "Drama"],
+      "rating": 9.6,
+      "episodes": 94,
+      "year": 2013
+    },
+    {
+      "id": 7,
+      "title": "Demon Slayer",
+      "caption": "Tanjiro seeks a cure for his sister while battling demons. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium atque, nostrum consectetur asperiores minima illo maiores, rem culpa dolor dicta corporis ipsa cum quam, illum delectus dolore? Dignissimos suscipit laboriosam placeat ullam alias dolor optio totam at repudiandae fugit nam nemo, fugiat voluptatum sit rerum, asperiores provident obcaecati velit deleniti necessitatibus nisi tempore quasi excepturi?",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnojPIRu0dNqb1psMW2RZHt2Xr38zyUrbbyA&s",
+      "genre": ["Action", "Fantasy"],
+      "rating": 9.2,
+      "episodes": 63,
+      "year": 2019
+    },
+    {
+      "id": 8,
+      "title": "Jujutsu Kaisen",
+      "caption": "A high school student enters the dangerous world of cursed spirits.      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium atque, nostrum consectetur asperiores minima illo maiores, rem culpa dolor dicta corporis ipsa cum quam, illum delectus dolore? Dignissimos suscipit laboriosam placeat ullam alias dolor optio totam at repudiandae fugit nam nemo, fugiat voluptatum sit rerum, asperiores provident obcaecati velit deleniti necessitatibus nisi tempore quasi excepturi?",
+      "image": "https://i.pinimg.com/originals/70/64/db/7064db7eb93710c7f76887395531fca1.jpg",
+      "genre": ["Action", "Supernatural"],
+      "rating": 9.1,
+      "episodes": 47,
+      "year": 2020
+    },
+    {
+      "id": 9,
+      "title": "Chainsaw Man",
+      "caption": "Denji gains the power of a chainsaw devil and fights deadly         Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium atque, nostrum consectetur asperiores minima illo maiores, rem culpa dolor dicta corporis ipsa cum quam, illum delectus dolore? Dignissimos suscipit laboriosam placeat ullam alias dolor optio totam at repudiandae fugit nam nemo, fugiat voluptatum sit rerum, asperiores provident obcaecati velit deleniti necessitatibus nisi tempore quasi excepturi?",
+      "image": "https://pbs.twimg.com/media/Gt3biGiW8AAjipe.jpg",
+      "genre": ["Action", "Horror"],
+      "rating": 8.9,
+      "episodes": 12,
+      "year": 2022
+    },
+    {
+      "id": 10,
+      "title": "Bleach: Thousand-Year Blood War",
+      "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium atque, nostrum consectetur asperiores minima illo maiores, rem culpa dolor dicta corporis ipsa cum quam, illum delectus dolore? Dignissimos suscipit laboriosam placeat ullam alias dolor optio totam at repudiandae fugit nam nemo, fugiat voluptatum sit rerum, asperiores provident obcaecati velit deleniti necessitatibus nisi tempore quasi excepturi? ",
+      "image": "https://hianime.com.pk/wp-content/uploads/2026/05/Bleach-housand.webp",
+      "genre": ["Action", "Fantasy"],
+      "rating": 9.4,
+      "episodes": 52,
+      "year": 2022
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }

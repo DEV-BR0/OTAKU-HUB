@@ -6,7 +6,7 @@ import {
   LayoutDashboard,
 } from "lucide-react";
 import { NavLink } from "react-router-dom";
-import img1 from "../../../public/2.png";
+import img1 from "../../../public/7.png";
 
 function Navbar() {
   return (
@@ -77,7 +77,6 @@ function Navbar() {
               "text-red-500 flex w-full gap-[10px] text-[25px] items-center justify-center p-[20px] rounded-2xl  "
             }
           >
-            <ImageUp size={33} />
             Admin Exit
           </NavLink>
         </div>

@@ -8,7 +8,7 @@ function AnimePlus() {
   return (
     <div>
       <div className="header">
-        pro
+
       </div>
     </div>
   )
