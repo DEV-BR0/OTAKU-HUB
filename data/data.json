@@ -115,5 +115,39 @@
       "year": 2022
     }
   ],
+
+  "genres": [
+    { "id": 1, "name": "Action" },
+    { "id": 2, "name": "Adventure" },
+    { "id": 3, "name": "Comedy" },
+    { "id": 4, "name": "Drama" },
+    { "id": 5, "name": "Fantasy" },
+    { "id": 6, "name": "Sci-Fi" },
+    { "id": 7, "name": "Romance" },
+    { "id": 8, "name": "Slice of Life" },
+    { "id": 9, "name": "Supernatural" },
+    { "id": 10, "name": "Mystery" },
+    { "id": 11, "name": "Horror" },
+    { "id": 12, "name": "Psychological" },
+    { "id": 13, "name": "Sports" },
+    { "id": 14, "name": "School" },
+    { "id": 15, "name": "Isekai" },
+    { "id": 16, "name": "Mecha" },
+    { "id": 17, "name": "Historical" },
+    { "id": 18, "name": "Music" },
+    { "id": 19, "name": "Martial Arts" },
+    { "id": 20, "name": "Demons" },
+    { "id": 21, "name": "Vampire" },
+    { "id": 22, "name": "Ecchi" },
+    { "id": 23, "name": "Harem" },
+    { "id": 24, "name": "Shounen" },
+    { "id": 25, "name": "Shoujo" },
+    { "id": 26, "name": "Seinen" },
+    { "id": 27, "name": "Josei" },
+    { "id": 28, "name": "Military" },
+    { "id": 29, "name": "Magic" },
+    { "id": 30, "name": "Parody" }
+  ],
+
   "$schema": "./node_modules/json-server/schema.json"
 }

@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 function Luciy() {
   useEffect(() => {
-    document.title = 'OTAKU-HUB | Random Anime'
+    document.title = "OTAKU-HUB | Random Anime";
   });
   return (
     <div>

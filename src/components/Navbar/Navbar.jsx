@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <>
       <div className="w-screen flex justify-center">
-        <div className="flex  justify-center  items-center mt-[10px] fixed pt-[20px] items-center z-10 ">
+        <div className="flex  justify-center  items-center mt-[10px] fixed pt-[20px] items-center z-30 ">
           <div className="flex  justify-between w-full contenr  ">
             <div className="w-[20%] h-[100%]">
               <img

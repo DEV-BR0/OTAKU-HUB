@@ -1,8 +1,6 @@
-import { Heart } from "lucide-react";
+import { Heart, TrendingUp } from "lucide-react";
 import { useEffect, useState } from "react";
 import { api } from "../../hooks/axios";
-import { TrendingUp } from "lucide-react";
-import { Link } from "react-router-dom";
 function Top() {
   useEffect(() => {
     document.title = "OTAKU-HUB | Top";
@@ -12,8 +10,9 @@ function Top() {
   async function getAnime() {
     try {
       const res = await api.get("/animes");
-      const data = await res.data;
-      setData(data);
+      const data = res.data;
+      const sortedData = [...data].sort((a, b) => b.rating - a.rating);
+      setData(sortedData);
     } catch (error) {
       console.log(error.message);
     }
@@ -21,8 +20,6 @@ function Top() {
   useEffect(() => {
     getAnime();
   }, []);
-
-  const [liked, setLiked] = useState(false);
 
   return (
     <div className="w-[100%]">
@@ -38,11 +35,6 @@ function Top() {
                   className="h-full w-full relative w-[100%]  h-[480px] flex   rounded-xl bg-cover bg-center "
                 >
                   <div className="bg-black/10 absolute top-0 left-0 right-0 bottom-0 z- bg-white/6 backdrop-blur-lg border border-white/20 rounded-xl "></div>
-                  <div className="index">
-                    <p className="text-[20px]  pl-[10px] pr-[10px] absolute z-10 bg-white/6 backdrop-blur-lg border border-white/20 rounded-xl bottom-[10px] left-[10px]">
-                      {index + 1}
-                    </p>
-                  </div>
                   <div className=" relative w-[160px]">
                     <img
                       src={item.image}
@@ -82,6 +74,11 @@ function Top() {
                         Watch Anime
                       </a>
                     </div>
+                  </div>
+                  <div className=" flex items-center ">
+                    <p className="text-[20px]  absolute right-0 bg-white/6 backdrop-blur-lg border border-white/20  w-[80px] flex justify-center h-[55px] items-center top-0 rounded-bl-3xl ">
+                      {index + 1}
+                    </p>
                   </div>
                 </td>
               </tr>
