@@ -13,7 +13,7 @@ function Home() {
         <Hero />
       </div>
       <div className="relative w-full h-[40%] mt-[120px]">
-        {/* <HeroBottom/> */}
+        <HeroBottom/>
       </div>
     </div>
   );

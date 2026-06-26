@@ -1,6 +1,8 @@
 import { Heart } from "lucide-react";
 import { useEffect, useState } from "react";
 import { api } from "../../hooks/axios";
+import { TrendingUp } from "lucide-react";
+import { Link } from "react-router-dom";
 function Top() {
   useEffect(() => {
     document.title = "OTAKU-HUB | Top";
@@ -29,7 +31,18 @@ function Top() {
           {data.map((item, index) => {
             return (
               <tr className=" w-[100px]" key={item.id}>
-                <td className="h-full w-full relative w-[100%]  h-[480px]  rounded-4xl bg-white/6 backdrop-blur-lg border border-white/20 rounded-xl ">
+                <td
+                  style={{
+                    backgroundImage: ` linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 10)), url(${item.image})`,
+                  }}
+                  className="h-full w-full relative w-[100%]  h-[480px] flex   rounded-xl bg-cover bg-center "
+                >
+                  <div className="bg-black/10 absolute top-0 left-0 right-0 bottom-0 z- bg-white/6 backdrop-blur-lg border border-white/20 rounded-xl "></div>
+                  <div className="index">
+                    <p className="text-[20px]  pl-[10px] pr-[10px] absolute z-10 bg-white/6 backdrop-blur-lg border border-white/20 rounded-xl bottom-[10px] left-[10px]">
+                      {index + 1}
+                    </p>
+                  </div>
                   <div className=" relative w-[160px]">
                     <img
                       src={item.image}
@@ -41,6 +54,34 @@ function Top() {
                       size={30}
                       className=" absolute z-10 right-[30px]  bottom-[10px] rounded-4xl bg-white/6 backdrop-blur-lg border border-white/20 rounded-xl p-[5px]"
                     />
+                  </div>
+                  <div className="pt-[20px] flex flex-col gap-[10px] relative z-10">
+                    <div className="title">
+                      <p className="text-[27px]">{item.title}</p>
+                    </div>
+                    <div className="ganre">
+                      <div className="text-[19px] flex gap-[10px] ">
+                        {item.genre &&
+                          item.genre.map((j, i) => {
+                            return (
+                              <span key={i}>
+                                <p className="p-[6px] bg-white/6 backdrop-blur-lg border border-white/20 rounded-xl">
+                                  {j}
+                                </p>
+                              </span>
+                            );
+                          })}
+                      </div>
+                    </div>
+                    <div className="flex  gap-[10px]">
+                      <TrendingUp />
+                      <p className="text-[16px] ">10 / {item.rating}</p>
+                    </div>
+                    <div className="">
+                      <a className="bg-white/6 backdrop-blur-lg border border-white/20 rounded-xl p-[7px]">
+                        Watch Anime
+                      </a>
+                    </div>
                   </div>
                 </td>
               </tr>

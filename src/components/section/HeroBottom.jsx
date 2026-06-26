@@ -5,7 +5,6 @@ function HeroBottom() {
       <div className="w-full h-[120px] object-center">
         <video
           autoPlay
-          autoPlay
           muted
           loop
           playsInline
