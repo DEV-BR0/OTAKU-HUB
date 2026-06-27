@@ -1,6 +1,7 @@
 import { Heart, TrendingUp } from "lucide-react";
 import { useEffect, useState } from "react";
 import { api } from "../../hooks/axios";
+import { toast } from "sonner";
 function Top() {
   useEffect(() => {
     document.title = "OTAKU-HUB | Top";
@@ -43,8 +44,11 @@ function Top() {
                     />
 
                     <Heart
+                      onClick={() => toggleLike(item.id)}
                       size={30}
-                      className=" absolute z-10 right-[30px]  bottom-[10px] rounded-4xl bg-white/6 backdrop-blur-lg border border-white/20 rounded-xl p-[5px]"
+                      className={
+                        "absolute z-10 right-[30px]  bottom-[10px] rounded-4xl bg-white/6 backdrop-blur-lg border border-white/20 rounded-xl p-[5px]"
+                      }
                     />
                   </div>
                   <div className="pt-[20px] flex flex-col gap-[10px] relative z-10">

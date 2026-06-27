@@ -8,6 +8,10 @@ import {
 import { NavLink } from "react-router-dom";
 import img1 from "../../../public/7.png";
 
+const hov =
+  "p-[10px] backdrop-blur-xl bg-white/10 border border-white/20 rounded-2xl text-white flex w-full gap-[10px] text-[25px] items-center justify-center p-[20px] rounded-2xl";
+const def =
+  "text-white flex w-full gap-[10px] text-[25px] items-center justify-center p-[20px] rounded-2xl ";
 function Navbar() {
   return (
     <div className="pl-[10px] pt-[10px]">
@@ -16,24 +20,13 @@ function Navbar() {
           <img src={img1} alt="" />
         </div>
         <div className="flex flex-col gap-[20px]">
-          <NavLink
-            to="/admin/dashboard"
-            className={({ isActive }) =>
-              isActive
-                ? "p-[10px] backdrop-blur-xl bg-white/10 border border-white/20 rounded-2xl text-white flex w-full gap-[10px] text-[25px] items-center justify-center p-[20px] rounded-2xl"
-                : "text-white flex w-full gap-[10px] text-[25px] items-center justify-center p-[20px] rounded-2xl "
-            }
-          >
+          <NavLink to={'/admin'} end className={({ isActive }) => (isActive ? hov : def)}>
             <LayoutDashboard size={33} />
             Dashboard
           </NavLink>
           <NavLink
             to="/admin/addanime"
-            className={({ isActive }) =>
-              isActive
-                ? "p-[10px] backdrop-blur-xl bg-white/10 border border-white/20 rounded-2xl text-white flex w-full gap-[10px] text-[25px] items-center justify-center p-[20px] rounded-2xl"
-                : "text-white flex w-full gap-[10px] text-[25px] items-center justify-center p-[20px] rounded-2xl "
-            }
+            className={({ isActive }) => (isActive ? hov : def)}
           >
             <CircleFadingPlus size={33} />
             Anime Plus
