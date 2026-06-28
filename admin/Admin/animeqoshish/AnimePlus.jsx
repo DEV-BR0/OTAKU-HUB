@@ -3,10 +3,8 @@ import { api } from "../../../src/hooks/axios";
 import { SquarePen, Trash2, CirclePlus, ImageUp } from "lucide-react";
 import { useParams } from "react-router-dom";
 function AnimePlus() {
-  const { id } = useParams();
   const [modal, setModal] = useState("");
   const [data, setData] = useState([]);
-  const [modalEdit, setModaledit] = useState(null);
   useEffect(() => {
     async function getApi() {
       try {
