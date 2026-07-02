@@ -130,7 +130,7 @@ const Hero = () => {
       <br />
       <br />
       <br />
-      <br />
+    
     </div>
   );
 };
