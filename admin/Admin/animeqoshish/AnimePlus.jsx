@@ -1,7 +1,7 @@
+import { CirclePlus, ImageUp, SquarePen, Trash2, X } from "lucide-react";
 import { useEffect, useState } from "react";
-import { api } from "../../../src/hooks/axios";
-import { SquarePen, Trash2, CirclePlus, ImageUp, X } from "lucide-react";
 import { toast } from "sonner";
+import { api } from "../../../src/hooks/axios";
 function AnimePlus() {
   const [modal, setModal] = useState("");
   const [data, setData] = useState([]);
@@ -171,8 +171,6 @@ function AnimePlus() {
                     />
                     <input
                       type="text"
-                      pattern="[0-9]*"
-                      inputmode="numeric"
                       onChange={(e) => setReting(e.target.value)}
                       placeholder="Anime Reting"
                       className="  bg-white/6 backdrop-blur-lg border border-white/20 outline-none p-[10px] rounded-xl"

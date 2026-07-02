@@ -24,19 +24,6 @@
   ],
   "animes": [
     {
-      "id": "1",
-      "title": "Solo Leveling",
-      "caption": "The weakest hunter begins an incredible journey to become the strongest.Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium atque, nostrum consectetur asperiores minima illo maiores, rem culpa dolor dicta corporis ipsa cum quam, illum delectus dolore? Dignissimos suscipit laboriosam placeat ullam alias dolor optio totam at repudiandae fugit nam nemo, fugiat voluptatum sit rerum, asperiores provident obcaecati velit deleniti necessitatibus nisi tempore quasi excepturi?",
-      "image": "https://media.themoviedb.org/t/p/w440_and_h660_face/geCRueV3ElhRTr0xtJuEWJt6dJ1.jpg",
-      "genre": [
-        "Action",
-        "Fantasy"
-      ],
-      "rating": 9.5,
-      "episodes": 25,
-      "year": 2024
-    },
-    {
       "id": "2",
       "title": "Black Clover",
       "caption": "Asta dreams of becoming the Wizard King despite having no magic.Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium atque, nostrum consectetur asperiores minima illo maiores, rem culpa dolor dicta corporis ipsa cum quam, illum delectus dolore? Dignissimos suscipit laboriosam placeat ullam alias dolor optio totam at repudiandae fugit nam nemo, fugiat voluptatum sit rerum, asperiores provident obcaecati velit deleniti necessitatibus nisi tempore quasi excepturi?",

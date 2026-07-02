@@ -15,6 +15,7 @@ import Me from "./pages/Me/Me";
 import Top from "./pages/top/Top";
 import Search from "./pages/Search/Search";
 import Watch from "./pages/Watch/Watch";
+import Nodefine from "./Notes/Nodefine";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -74,6 +75,10 @@ const router = createBrowserRouter([
       },
     ],
   },
+  {
+    path:'*',
+    element:<Nodefine/>
+  }
 ]);
 
 const App = () => {
