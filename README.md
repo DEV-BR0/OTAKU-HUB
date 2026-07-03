@@ -1,16 +1,21 @@
-# React + Vite
+# Anime Tomosha Qilish Ilovasi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu loyiha foydalanuvchiga anime tomosha qilish imkonini beruvchi desktop ilova.
 
-Currently, two official plugins are available:
+## Loyiha nima qiladi
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Foydalanuvchi ilovani ochib, anime qidiradi yoki ro'yxatdan tanlaydi. Har bir anime haqida ma'lumot va uning barcha qismlari (epizodlari) ko'rsatiladi. Foydalanuvchi istalgan qismni tanlab, to'g'ridan-to'g'ri ilova ichida tomosha qila oladi. Bundan tashqari, foydalanuvchi o'z profiliga ega bo'ladi, animelarga reyting qo'yish imkoniga ega bo'ladi va nima tomosha qilishni bilmasa, tasodifiy anime tanlash bo'limidan foydalanishi mumkin.
 
-## React Compiler
+## Texnologiya
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Loyiha Electron.js, React.js va Vite yordamida yaratilgan. Electron.js ilovani desktop dastur sifatida ishlashini ta'minlaydi, React.js va Vite esa interfeys qismini quradi.
 
-## Expanding the ESLint configuration
+## Asosiy bo'limlar
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Anime qidirish
+- Anime ro'yxati va ma'lumotlari
+- Qismlarni (epizodlarni) tomosha qilish
+- Sevimlilar ro'yxati
+- Foydalanuvchi profili
+- Animelarga reyting qo'yish
+- Tasodifiy anime tanlash
