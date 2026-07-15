@@ -6,20 +6,6 @@
       "password": "pono0908",
       "email": "manzura.sharipova.ru@gmail.com",
       "time": "2026-06-27T16:09:53.392Z"
-    },
-    {
-      "id": "sKl02WCvlGE",
-      "name": "user",
-      "password": "cjds",
-      "email": "user@gmail.com",
-      "time": "2026-06-27T16:15:29.048Z"
-    },
-    {
-      "id": "mZMpRac8aQg",
-      "name": "u",
-      "password": "o",
-      "email": "u@gmail.com",
-      "time": "2026-06-27T17:25:01.922Z"
     }
   ],
   "animes": [
@@ -139,6 +125,20 @@
       "rating": 9.4,
       "episodes": 52,
       "year": 2022
+    },
+    {
+      "id": "5LF7PbdTHqw",
+      "title": "Naruto Bo'roq",
+      "caption": "Could you tell me which characters or specific moments you want your poster to show (e.g., Naruto vs. Sasuke, Team 7, or the Akatsuki)? I can help you find or describe the exact artwork you are looking for.",
+      "image": "https://ph-test-11.slatic.net/p/40df011b7cef01b30fc4ec16198e9747.jpg",
+      "genre": [
+        "Comedy",
+        "Drama"
+      ],
+      "rating": "8.4",
+      "episodes": "200",
+      "year": "1997",
+      "time": "2026-07-15T16:43:16.927Z"
     }
   ],
   "genres": [
